@@ -16,21 +16,24 @@ I have not verified that paths containing spaces work correctly.
 
 ## Usage Examples:
 
+Default options
+
 ```
 mix plantuml
 Generating images from diagrams/*.puml to diagrams
 ```
 
-## `mix help plantuml`
+Show help
 
+`mix help plantuml`
+
+```
 Run plantuml, specifying source glob and destination directory.
 
-```
 mix plantuml --source "diagrams/*.puml" --dest "diagrams"
-```
-Args:
-* `--help`  :  display this help
-* `--source`: <source glob>
-* `--dest`  : <destination directory>
 
-Location: _build/dev/lib/plantuml_mix/ebin
+Args:
+* --help  :  display this help
+* --source: <source glob>
+* --dest  : <destination directory>
+```
