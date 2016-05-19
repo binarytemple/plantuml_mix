@@ -11,6 +11,9 @@ Add elixirci to your list of dependencies in `mix.exs` :
           ]
         end
 
+Requires that the environment variable `PLANTUML_JAR` exists and is set to the path for 'plantuml.jar'.
+I have not verified that paths containing spaces work correctly. 
+
 ## Usage Examples:
 
 ```

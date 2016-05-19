@@ -13,7 +13,7 @@ defmodule Plantuml.Mixfile do
      package: [
       licenses: ["MIT"],
       maintainers: ["binarytemple"],
-      links: %{}
+      links: %{github: "https://github.com/binarytemple/plantuml_mix"   }
      ],
           elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
